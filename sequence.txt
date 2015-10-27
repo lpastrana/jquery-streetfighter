@@ -1,0 +1,17 @@
+Page loads
+-Ryu is standing still
+	onMouseOver = Hover over Ryu, he shifts to his ready pose
+	onMouseOUt = Ryu returns to standing still
+-Click Ryu
+	onClick = Ryu leans forward and throws a Hadouken, remains until click release
+	onClickRelease = Ryu returns to ready pose
+-x
+	on "x" key being pressed Ryu assumes "looking cool" pose
+	on "x" key released Ryu returns to ready pose
+
+The Hadouken gif is stationary and I have to make it move across the screen.
+Also, it needs a sound effect.
+
+jquery
+.hide()
+.show()

@@ -3,11 +3,13 @@ $(document).ready(function(){
   	$('.ryu-still').hide();
   	$('.ryu-ready').show();
     $('.ryu-cool').hide();
+    $('.ryu-throwing').hide();
    })
   .mouseleave(function(){
   	$('.ryu-ready').hide();
   	$('.ryu-still').show();
     $('.ryu-cool').hide();
+    $('.ryu-throwing').hide()
   })
   .mousedown(function(){
   	playHadouken();

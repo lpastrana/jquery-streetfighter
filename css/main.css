@@ -1,5 +1,6 @@
 body {
 	background-color: #000;
+	font-family: 'Frijole', cursive;
 }
 .main {
 	background-color: #fff;
@@ -11,11 +12,12 @@ body {
 	z-index: 1;
 }
 .ryu {
-	width: 659px;
+	width: 600px;
 	height: 494px;
+	border: solid 2px green;
 }
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
-	width: 659px;
+	width: 600x;
 	height: 494px;
 }
 .ryu-ready, .ryu-throwing, .ryu-cool {
@@ -47,3 +49,12 @@ body {
 	left: 520px;
 	z-index: 10;
 }
+.text {
+	position: absolute;
+	top: 110px;
+	left: 700px;
+	color: #00aaff;
+	font-size: 1.75em;
+}
+/*  http://streetfighter.wikia.com/
+http://vignette2.wikia.nocookie.net/streetfighter/images/f/f6/SF_Logo.png/revision/latest?cb=20130310140822 */
